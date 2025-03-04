@@ -1,0 +1,31 @@
+@use "partials/main";
+@use "partials/footer";
+
+//nesting
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(../Assets/Fondogeneral.jpg);
+}
+
+header{
+    img{
+        width: 50%;
+    }
+    .nav{
+        font-size: 2rem;
+        gap: 30px;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-imagen {
+        width: 100%;
+    }
+}

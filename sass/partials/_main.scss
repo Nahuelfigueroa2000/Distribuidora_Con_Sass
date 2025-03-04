@@ -1,0 +1,79 @@
+//variables
+$centrarTexto: center;
+
+
+main{
+
+    margin: 40px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(219, 0, 0, 0.1);
+    border-radius: 10px;
+
+    .section-inicio{
+        background-color: #f4f4f4;
+        padding: 50px 20px;
+        text-align: $centrarTexto;
+        border-radius: 10px;
+    }
+
+    .section-inicio ul{
+        list-style: none;
+    }
+
+    .section-inicio span{
+        color: #cf0d0d;
+    }
+
+    .main-contacto{
+        font-size: 2.5rem;
+        color: #065606;
+    }
+    
+    //uso de extend
+
+    .parrafo-contacto{
+        @extend .main-contacto;
+        text-align: $centrarTexto;
+    }
+
+    .galeria{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    
+        .image-container{
+            text-align: $centrarTexto;
+            width: 30%;
+        }
+    
+        .image-container img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    
+        .image-container p{
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+    }
+
+    .card-title{
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #ec0000;
+    }
+    
+    .card-img-top{
+        height: auto;
+        width: 100%;
+    }
+
+    //animacion
+
+    .card-img-top:hover{
+        border: 5px solid aqua;
+    }
+}

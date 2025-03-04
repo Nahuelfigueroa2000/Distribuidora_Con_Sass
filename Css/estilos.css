@@ -1,0 +1,91 @@
+main {
+  margin: 40px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(219, 0, 0, 0.1);
+  border-radius: 10px;
+}
+main .section-inicio {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+main .section-inicio ul {
+  list-style: none;
+}
+main .section-inicio span {
+  color: #cf0d0d;
+}
+main .main-contacto, main .parrafo-contacto {
+  font-size: 2.5rem;
+  color: #065606;
+}
+main .parrafo-contacto {
+  text-align: center;
+}
+main .galeria {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+main .galeria .image-container {
+  text-align: center;
+  width: 30%;
+}
+main .galeria .image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+main .galeria .image-container p {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+main .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ec0000;
+}
+main .card-img-top {
+  height: auto;
+  width: 100%;
+}
+main .card-img-top:hover {
+  border: 5px solid aqua;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../Assets/Fondogeneral.jpg);
+}
+
+header img {
+  width: 50%;
+}
+header .nav {
+  font-size: 2rem;
+  gap: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer-imagen {
+    width: 100%;
+  }
+}/*# sourceMappingURL=estilos.css.map */

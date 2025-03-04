@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../Css/estilos.css">
+    <title>Distribuidora de bebidas</title>
+</head>
+<body>
+    <header>
+        <!--nav para navegacion de la pagina, Contiene logo-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"  class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../Assets/LOGO.png" alt="Logo distribuidora"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/quienSomos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section class="section-inicio">
+            <h1>¡Las Mejores Bebidas, al Mejor Precio!</h1>
+            <!--Presentacion de los productos-->
+            <div>
+                <p>En nuestro distribuidor encontrarás productos ilimitados de las mejores marcas y calidad. Trabajamos directamente con importadores oficiales para ofrecerle bebidas de la más alta gama a precios incomparables . No importa si eres un negocio o un amante de las bebidas, tenemos todo lo que necesitas para disfrutar de las mejores marcas del mercado.</p>
+                <ul>
+                    <h2>¿Te interesa un combo especial o ofertas exclusivas ?</h2>
+                    <li>¡Consulta con nosotros y encuentra la opción que mejor se adapta a ti! Estamos aquí para ayudarte a conseguir todo lo que buscas.</li>
+                </ul>
+            </div>
+            <!--Boton para redigirar a la pagina de contacto-->
+            <div class="text-center mt-4">
+                <a href="../pages/contacto.html" class="btn btn-primary btn-lg">📞 Contáctanos</a>
+            </div>
+        </section>
+
+        <!--Section de productos y adquirimos bootstrap-->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="../Assets/Fernet.jpg" class="card-img-top" alt="Botella fernet">
+                <div class="card-body">
+                  <h3 class="card-title">Fernet</h3>
+                  <p class="card-text">Licor amargo de origen italiano, popular en Argentina. Se mezcla con cola para crear el famoso "Fernet con cola".</p>
+                  <p class="card-text"><strong>$20.00</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../Assets/Campari.jpg" class="card-img-top" alt="Botella campari">
+                <div class="card-body">
+                  <h3 class="card-title">Campari</h3>
+                  <p class="card-text">Licor italiano de sabor amargo y afrutado, conocido por su color rojo. Es base del cóctel "Negroni".</p>
+                  <p class="card-text"><strong>$15.00</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../Assets/GIN.JPG" class="card-img-top" alt="Botella gin">
+                <div class="card-body">
+                  <h3 class="card-title">Gin Tanqueray</h3>
+                  <p class="card-text">Licor aromatizado con enebro y otras hierbas. Ideal para cócteles como "Gin Tonic" o "Martini".</p>
+                  <p class="card-text"><strong>$20.00</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../Assets/ron.png" class="card-img-top" alt="Botella ron">
+                <div class="card-body">
+                  <h3 class="card-title">Ron Blanco</h3>
+                  <p class="card-text">Licor destilado de la caña de azúcar. Se utiliza en cócteles como "Mojito" y "Piña colada".</p>
+                  <p class="card-text"><strong>$30.00</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="../Assets/cachca.jpg" class="card-img-top" alt="Botella Cachaca">
+                  <div class="card-body">
+                    <h3 class="card-title">Cachaca Velho Barreiro</h3>
+                    <p class="card-text">Licor brasileño hecho de caña de azúcar, base del famoso cóctel "Caipirinha".</p>
+                    <p class="card-text"><strong>$20.00</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../Assets/chadon.jpeg" class="card-img-top" alt="Botella chadon">
+                  <div class="card-body">
+                    <h3 class="card-title">Chadon</h3>
+                    <p class="card-text">Licor de hierbas típico de Paraguay, con un sabor único gracias a sus hierbas y especias.</p>
+                    <p class="card-text"><strong>$40.00</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../Assets/cynar.png" class="card-img-top" alt="Botella Cynar">
+                  <div class="card-body">
+                    <h3 class="card-title">Cynar</h3>
+                    <p class="card-text">Un licor amargo a base de alcachofa, con un toque herbal y vegetal. Ideal para quienes buscan una bebida distintiva, es común en cócteles o se disfruta solo con hielo.</p>
+                    <p class="card-text"><strong>$25.00</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../Assets/jagger.jpg" class="card-img-top" alt="Botella jagger">
+                  <div class="card-body">
+                    <h3 class="card-title">Jagger</h3>
+                    <p class="card-text">Un licor alemán a base de hierbas y especias, conocido por su sabor dulce y amargo. Muy popular en shots y cócteles.</p>
+                    <p class="card-text"><strong>$100.00</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../Assets/Vodka absoltu.png" class="card-img-top" alt="Botella Vodka absolut">
+                  <div class="card-body">
+                    <h3 class="card-title">Vodka absolut</h3>
+                    <p class="card-text">Un vodka sueco de renombre, conocido por su suavidad y pureza. Destaca por su sabor limpio y su versatilidad en cócteles.</p>
+                    <p class="card-text"><strong>$70.00</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../Assets/vodka.png" class="card-img-top" alt="Botella Vodka">
+                  <div class="card-body">
+                    <h3 class="card-title">Vodka</h3>
+                    <p class="card-text">Un licor destilado de granos o patatas, conocido por su sabor neutro. Es un ingrediente clave en una variedad de cócteles clásicos como el vodka tonic o el martini.</p>
+                    <p class="card-text"><strong>$20.00</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../Assets/tequila.jpg" class="card-img-top" alt="Botella Tequila">
+                  <div class="card-body">
+                    <h3 class="card-title">Tequila Blanco</h3>
+                    <p class="card-text">Bebida alcohólica originaria de México, destilada del agave. Con un sabor distintivo, se disfruta solo, con sal y limón, o en cócteles como la margarita.</p>
+                    <p class="card-text"><strong>$60.00</strong></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="../Assets/rosso.jpg" class="card-img-top" alt="Botella Rosso">
+                  <div class="card-body">
+                    <h3 class="card-title">Rosso</h3>
+                    <p class="card-text">Un vermut rojo, aromatizado con hierbas y especias. Su sabor ligeramente dulce y especiado lo convierte en un ingrediente esencial en cócteles como el Negroni.</p>
+                    <p class="card-text"><strong>$10.00</strong></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </main>
+
+    <!--Footer con medios de pago, redes sociales y contacto-->
+    <footer>
+        <div class="footer-container">
+            <!-- Medios de pago -->
+            <div>
+                <h4>Medios de Pago</h4>
+                <img src="../Assets/formas-de-pago.png" alt="Medios de Pago" class="footer-imagen">
+            </div>
+            
+            <!-- Redes Sociales -->
+            <div>
+                <h4>Síguenos en nuestras redes</h4>
+                <div>
+                    <a href="https://www.tiktok.com" target="_blank"><img src="../Assets/tiktok-logo.png" alt="TikTok"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="../Assets/facebook-logo.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../Assets/instagram-logo.png" alt="Instagram"></a>
+                </div>
+            </div>
+    
+            <!-- Contacto -->
+            <div>
+                <h4>Contacto</h4>
+                <p>Visita nuestra página de contacto para más información y atención personalizada.</p>
+                <a href="../pages/contacto.html">Contáctanos</a>
+            </div>
+
+            <p>&copy; 2025 Distribuidora de Bebidas. Todos los derechos reservados.</p>
+
+        </div>
+    </footer>
+
+    <!-- Script de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
